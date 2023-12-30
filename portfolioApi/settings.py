@@ -14,36 +14,27 @@ SECRET_KEY = 'django-insecure-%9h7v#ev+vs5+p*2pf!1y0gt4^4=5)f^g2%m3f4v@psdo@%162
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-# ALLOWED_HOSTS = [
-#     'localhost',
-#     'Mlmh3113.pythonanywhere.com',
-#     'https://mlmh3113.github.io/portfolio-vue/',
-#     'https://mlmh3113.github.io/portfolio-vue',
-#     'mlmh3113.github.io/portfolio-vue/',
-#     'mlmh3113.github.io/portfolio-vue',
-#     ]
+ALLOWED_HOSTS = [
+    'localhost',
+    'Mlmh3113.pythonanywhere.com',
+    'mlmh3113.github.io',
+    'https://mlmh3113.github.io',
+    ]
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:8080',
     'http://127.0.0.1:8080',
-    'localhost',
-    'Mlmh3113.pythonanywhere.com',
-    'https://mlmh3113.github.io/portfolio-vue/',
-    'https://mlmh3113.github.io/portfolio-vue',
-    'mlmh3113.github.io/portfolio-vue/',
-    'mlmh3113.github.io/portfolio-vue',
+    'http://mlmh3113.github.io',
+    'https://mlmh3113.github.io',
 
 ]
+
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:8080',
     'http://127.0.0.1:8080',
-    'localhost',
-    'Mlmh3113.pythonanywhere.com',
-    'https://mlmh3113.github.io/portfolio-vue/',
-    'https://mlmh3113.github.io/portfolio-vue',
-    'mlmh3113.github.io/portfolio-vue/',
-    'mlmh3113.github.io/portfolio-vue',
+    'http://mlmh3113.github.io',
+    'https://mlmh3113.github.io',
 ]
 
 CORS_ALLOW_METHODS = [
