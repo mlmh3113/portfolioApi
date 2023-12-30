@@ -14,7 +14,14 @@ SECRET_KEY = 'django-insecure-%9h7v#ev+vs5+p*2pf!1y0gt4^4=5)f^g2%m3f4v@psdo@%162
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost','Mlmh3113.pythonanywhere.com']
+ALLOWED_HOSTS = [
+    'localhost',
+    'Mlmh3113.pythonanywhere.com',
+    'https://mlmh3113.github.io/portfolio-vue/',
+    'https://mlmh3113.github.io/portfolio-vue',
+    'mlmh3113.github.io/portfolio-vue/',
+    'mlmh3113.github.io/portfolio-vue',
+    ]
 
 
 # Application definition
